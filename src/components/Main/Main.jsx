@@ -9,7 +9,7 @@ const Main = () => {
     const classes = useStyles();
     return (
         <Card className={classes.root} fullWidth>
-            <CardHeader title="Expense Tracker" subheader="Powered by Speechly" />
+            <CardHeader title="Badget Tracker" subheader="Powered by Speechly" />
             <CardContent>
                 <Typography align="center" variant="h5">Total Balance $100</Typography>
                 <Typography variant="subtitle1" style={{ lineHeight: '1.5em', marginTop: '20px' }}>
