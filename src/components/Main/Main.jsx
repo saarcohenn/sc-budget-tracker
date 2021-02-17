@@ -12,7 +12,7 @@ const Main = () => {
     const { balance } = useContext(BadgetTrackerContext)
     return (
         <Card className={classes.root} fullWidth>
-            <CardHeader title="Badget Tracker" subheader="Powered by Speechly" />
+            <CardHeader title="Budget Tracker" subheader="Powered by Speechly" />
             <CardContent>
                 <Typography align="center" variant="h5">Total Balance ${balance}</Typography>
                 <Typography variant="subtitle1" style={{ lineHeight: '1.5em', marginTop: '20px' }}>
